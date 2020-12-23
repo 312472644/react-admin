@@ -1,0 +1,21 @@
+.layout {
+    display: flex;
+    .section {
+        
+        width: calc(100% - 200px);
+    }
+    &.shrink {
+        .menu {
+            width: 54px !important;
+            .logo-text {
+                display: none;
+            }
+            .antd-menu {
+                width: 54px;
+            }
+        }
+        .section {
+            width: calc(100% - 54px) !important;
+        }
+    }
+}

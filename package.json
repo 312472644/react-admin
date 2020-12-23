@@ -1,0 +1,77 @@
+{
+  "name": "my-app",
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.3.0",
+    "@babel/plugin-proposal-decorators": "^7.12.1",
+    "@babel/polyfill": "^7.12.1",
+    "@nutui/draw-page-structure": "^0.1.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "ant-design-pro": "^2.3.2",
+    "antd": "^4.8.4",
+    "axios": "^0.21.0",
+    "core-js": "^3.8.1",
+    "http-proxy-middleware": "^1.0.6",
+    "mobx": "4.0.0",
+    "mobx-react": "6.0.0",
+    "mockjs": "^1.1.0",
+    "node-sass": "4.14.1",
+    "react": "^17.0.1",
+    "react-app-polyfill": "^2.0.0",
+    "react-app-rewired": "^2.1.8",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.1",
+    "regenerator-runtime": "^0.13.7",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie > 9"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie > 9"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.7",
+    "customize-cra": "^1.0.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "babel": {
+    "plugins": [
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
+      ],
+      "transform-class-properties",
+      "babel-polyfill"
+    ],
+    "presets": [
+      "react-app",
+      "@babel/preset-env"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+.menu-guide {
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    .menu {
+        width: 200px;
+        transition: width linear 0.2s;
+        position: sticky;
+        top: 0;
+        .logo {
+            position: relative;
+            width: 100%;
+            height: 50px;
+            background: #2b2f3a;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                width: 32px;
+                height: 32px;
+            }
+            .logo-text {
+                color: #fff;
+                padding-left: 10px;
+                font-size: 15px;
+                display: block;
+                white-space: nowrap;
+            }
+        }
+        .menu-box {
+            height: calc(100vh - 50px);
+            background-color: rgb(48, 65, 86);
+            .antd-menu {
+                width: auto;
+                background-color: rgb(48, 65, 86);
+                .ant-menu-sub {
+                    background-color: #1f2d3d;
+                }
+            }
+            .search-box {
+                margin: 10px;
+                box-sizing: border-box;
+                &.ant-input-group-wrapper {
+                    width: auto;
+                }
+            }
+            .no-menu {
+                text-align: center;
+                line-height: 50px;
+            }
+        }
+    }
+}

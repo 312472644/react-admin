@@ -1,0 +1,30 @@
+.head-box {
+    .head {
+        width: 100%;
+        padding: 0px 15px;
+        height: 50px;
+        line-height: 50px;
+        transition: width linear 0.2s;
+        box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+        display: flex;
+        align-items: center;
+        .icon-size {
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .nav-title {
+            padding-left: 20px;
+        }
+        .user-info-box {
+            position: absolute;
+            right: 15px;
+            top: 0;
+            .dropdown-trigger {
+                > span {
+                    padding-right: 5px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

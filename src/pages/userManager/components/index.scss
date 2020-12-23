@@ -1,0 +1,18 @@
+.user-manager {
+    .row {
+        margin-bottom: 15px;
+        button + button {
+            margin-left: 10px;
+        }
+        .col-item {
+            display: flex;
+            align-items: center;
+            label {
+                width: 80px;
+            }
+        }
+        &.flex-center {
+            justify-content: center;
+        }
+    }
+}
